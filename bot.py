@@ -4,7 +4,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from datetime import datetime
 
 
-TOKEN = "MTUyMTUzNzU1MzQ1NzYxMDc1Mg.GjHsfW.eRRy3wfGxu7EU2EtmFFw8M7PTzjfo1NlRNIU8c"
+TOKEN = 
 
 SCHICHT_CHANNEL_ID = 1454908791647768798
 TEAM_CHANNEL_ID = 1454908791647768798
@@ -252,6 +252,8 @@ async def ping(ctx):
         "🏓 Pong!"
     )
 
+import os
 
-bot.run("MTUyMTUzNzU1MzQ1NzYxMDc1Mg.GjHsfW.eRRy3wfGxu7EU2EtmFFw8M7PTzjfo1NlRNIU8c")
+bot.run(os.getenv("MTUyMTUzNzU1MzQ1NzYxMDc1Mg.GFlopy.Vz0Gga9yy2tzmnD2AHS316fVkOtDZ8rk0Y4kIQ")
+
 
