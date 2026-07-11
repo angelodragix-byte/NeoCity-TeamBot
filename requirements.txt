@@ -1,3 +1,4 @@
 discord.py
 apscheduler
 gunicorn
+python-dotenv
